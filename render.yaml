@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: neon-pong-1v1
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production

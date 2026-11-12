@@ -1,0 +1,12 @@
+{
+  "name": "neon-pong-multiplayer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Real-time two-player online Pong with private rooms; zero dependencies.",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": { "node": ">=20" },
+  "license": "MIT"
+}
